@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Akshar&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-.home {
-  height: 200vh;
+.home_about {
+  //height: 200vh;
   width: 100%;
-  background-color: black;
+  //background-color: black;
   color: white;
   display: flex;
   flex-direction: column;
@@ -13,11 +13,11 @@
 
   .home_mid {
     display: flex;
-    height: 100vh;
+    //height: 100vh;
     justify-content: center;
     align-items: center;
     gap: 20px;
-   padding: 2rem;
+    padding: 4rem;
 
     h3 {
       font-family: Akshar;
@@ -42,6 +42,24 @@
       height: 29.75rem;
       width: 32.25rem;
     }
+  }
+}
+
+.sponser_Container {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+
+  h3 {
+    font-family: Akshar;
+    font-size: 5.0625rem;
+    background: var(
+      --s-gradient-2,
+      linear-gradient(260deg, #0047ff -13.37%, #00bcd4 109.53%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 

@@ -15,7 +15,6 @@ h1 {
   font-size: 4.7rem;
   font-style: normal;
   font-weight: 800;
-  line-height: 10.375rem;
   /* 172.917% */
   letter-spacing: 0.03125rem;
   text-transform: uppercase;
@@ -26,18 +25,37 @@ h3 {
   font-size: 3.0625rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 8.25rem;
   background: linear-gradient(265deg, #00ffbd -5.84%, #025b8c 111.58%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.team-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+
+}
+
 .allCards {
-  position: relative;
-  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .heading1 {
-  margin-left: 160px;
+  margin-left: 2%;
 }
