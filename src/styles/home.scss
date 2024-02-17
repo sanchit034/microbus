@@ -1,10 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Akshar&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+.homeImage {
+  background-color: black;
+  width: 100vw;
+  
+  img {
+    width: 100vw;
+  }
+}
+
 .home_about {
   //height: 200vh;
   width: 100%;
-  //background-color: black;
+  background-color: black;
   color: white;
   display: flex;
   flex-direction: column;
@@ -45,22 +54,21 @@
   }
 }
 
-.sponser_Container {
-  display: flex;
-  flex-direction: column;
-  padding: 4rem;
 
-  h3 {
-    font-family: Akshar;
-    font-size: 5.0625rem;
-    background: var(
-      --s-gradient-2,
-      linear-gradient(260deg, #0047ff -13.37%, #00bcd4 109.53%)
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+@media (max-width: 768px) {
+  .home_about {
+
+    .home_mid {
+      padding: 1rem;
+
+      h3 {
+        font-size: 1.6rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+      }
+    }
   }
 }
-
-

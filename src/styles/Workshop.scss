@@ -20,7 +20,7 @@
 
   .workshop-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     width: 95%;
@@ -30,7 +30,8 @@
       /* display: flex; */
       /* justify-content: center; */
       //height: 80vh;
-      width: 48%;
+      width: 92%;
+      margin-bottom: 20px;
       text-align: center;
       display: flex;
       flex-direction: column;

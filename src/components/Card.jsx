@@ -13,9 +13,9 @@ const Card = ({ image, name, designation, linkedinURL, instaURL, githubURL }) =>
           <p className="card-designation">{designation}</p>
         </div>
         <div className="profile-url">
-          <div className="linkedin"><a href={linkedinURL}><img src="./assets/linkedin.png" alt=""/></a></div>
-          <div className="insta"><a href={instaURL}><img src="./assets/insta.png" alt="" /></a></div>
-          <div className="github"><a href={githubURL}>gi</a></div>
+          <div className="linkedin"><a href={linkedinURL}><img src="./assets/linkedinBlack.png" alt=""/></a></div>
+          <div className="insta"><a href={instaURL}><img src="./assets/instaBlack.png" alt="" /></a></div>
+          <div className="github"><a href={githubURL}><img src="./assets/github.png" alt="" /></a></div>
         </div>
       </div>
     </div>

@@ -39,9 +39,9 @@ Get ready to use those search engines in your own creative way to hunt for facts
                                     </p>
                             </div>
                         </div>
-                            <div className="card-image">
+                            {/* <div className="card-image">
                                 <img src='/assets/slider/Rectangle5.png' className="event-image" alt="image" />
-                            </div>
+                            </div> */}
                         </div>
                     </div>      
                 </div>
@@ -50,11 +50,11 @@ Get ready to use those search engines in your own creative way to hunt for facts
                     <div className="rectangle">
                         <div className="card-title-details">
                             <div className="box-2">
-                                <div className="card-image">
+                                {/* <div className="card-image">
                                     <img src='/assets/slider/Rectangle5.png' className="event-image" alt="image" />
-                                </div>
+                                </div> */}
                                 
-                                <div className="box-22">
+                                <div className="box-1">
 
                                     <div className="card-title">
                                             Microexplorer
@@ -100,11 +100,11 @@ Get ready to use those search engines in your own creative way to hunt for facts
                     <div className="rectangle">
                         <div className="card-title-details">
                             <div className="box-2">
-                                <div className="card-image">
+                                {/* <div className="card-image">
                                     <img src='/assets/slider/Rectangle5.png' className="event-image" alt="image" />
-                                </div>
+                                </div> */}
                                 
-                                <div className="box-22">
+                                <div className="box-1">
 
                                     <div className="card-title">
                                             Aristotle
