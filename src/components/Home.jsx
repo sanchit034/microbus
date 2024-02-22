@@ -25,7 +25,7 @@ const Home = () => {
         <img src="/./assets/landing bg.png" alt="" />
       </div>
 
-      <div className="home_about">
+      <div className="home_about" id="about">
         <div className="home_mid">
           <div>
             <h3 >WHO ARE WE ?</h3>
