@@ -1,11 +1,11 @@
 .card {
   display: inline-block;
-  width: 15%;
+  width: 18%;
   border: 1px solid white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
-  margin:25px 30px; /* Add right margin for spacing between cards */
+  margin:25px 3.5%; /* Add right margin for spacing between cards */
   border-radius: 1.1875rem;
   border: 2px solid white;
   background: rgba(255, 255, 255, 0.11);
@@ -14,12 +14,13 @@
 
 .card-image {
   width: 100%;
-  aspect-ratio: 0.94;
+  aspect-ratio: 0.85;
   object-fit: cover;
 }
 
 .card-details {
   padding: 5%;
+  margin-top: -6.2px;
   text-align: center;
   background-color: white;
   fill: #00907F;
@@ -42,7 +43,7 @@
 
 .profile-url {
   display: flex;
-  width: 60%;
+  width: 35%;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
@@ -57,6 +58,7 @@
 @media (max-width: 900px) {
   .card {
     width: 21%;
+    margin: 25px 6%;
   }
 
   .card-title {
@@ -71,6 +73,7 @@
 @media (max-width: 550px) {
   .card {
     width: 30%;
+    margin: 25px 10%;
   }
 
   .card-title {
