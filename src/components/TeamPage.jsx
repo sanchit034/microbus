@@ -59,14 +59,14 @@ const developers = [
      instaURL: "https://www.instagram.com/roiyaru_ryuga/",
      githubURL: "",
    },
-  // {
-  //   image: "/assets/team/himanshu.png",
-  //   name: "Himanshu",
-  //   designation: "Developer",
-  //   linkedinURL: "",
-  //   instaURL: "",
-  //   githubURL: "",
-  // },
+   {
+     image: "/assets/team/himanshu.png",
+     name: "Himanshu",
+     designation: "Developer",
+     linkedinURL: "https://www.linkedin.com/in/himanshu-swn",
+     instaURL: "",
+     githubURL: "",
+   },
    {
      image: "/assets/team/yujit.png",
      name: "Yujit",
