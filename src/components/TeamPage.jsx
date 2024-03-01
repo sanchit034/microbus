@@ -153,7 +153,7 @@ const sponsers = [
 const TeamPage = () => {
   return (
     <div className="team">
-      <h1>TEAMS</h1>
+      <h1 className="team-h1">TEAMS</h1>
       <div className="team-container">
         <h3 className="heading1">Developers</h3>
         <div className="allCards">
